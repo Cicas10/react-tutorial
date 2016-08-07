@@ -17,6 +17,8 @@ class App extends React.Component {
     return (
       <div>
         <widget txt={this.state.txt} update={this.update} />
+        <widget txt={this.state.txt} update={this.update} />
+        <widget txt={this.state.txt} update={this.update} />
       </div>
     );
   }
